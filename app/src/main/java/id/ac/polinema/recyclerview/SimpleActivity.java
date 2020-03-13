@@ -1,10 +1,10 @@
 package id.ac.polinema.recyclerview;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +24,7 @@ public class SimpleActivity extends AppCompatActivity {
 		teams.add("Manchester City");
 		teams.add("Leicester City");
 		teams.add("Chelsea");
+		teams.add("Real Madrid");
 
 		SimpleAdapter adapter = new SimpleAdapter(teams);
 		teamsView.setAdapter(adapter);
